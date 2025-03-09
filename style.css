@@ -269,7 +269,7 @@ footer::after {
     border-right: 3px solid white;
     animation: borderMove2 2s linear infinite;
 }
-@media (max-width:500px){
+@media (max-width:400px){
     #tit{
         /* border: 2px solid red; */
         width: 320px;
@@ -289,8 +289,8 @@ footer::after {
         /* border: 2px solid red; */
         width: 290px;
         position: absolute;
-        top: 550px;
-        right: 60px;
+        top: 510px;
+        right: 40px;
     }
     aside{
         /* border: 2px solid red; */
