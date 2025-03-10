@@ -325,7 +325,7 @@ footer::after {
 }
 @media (min-width:401px){
     #tit{
-        /* border: 2px solid red; */
+        border: 2px solid red;
         width: 320px;
         margin-left: 25px;
     }
@@ -344,7 +344,7 @@ footer::after {
         width: 290px;
         position: absolute;
         top: 510px;
-        right: 95px;
+        right: 105px;
     }
     aside{
         /* border: 2px solid red; */
