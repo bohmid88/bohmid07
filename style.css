@@ -323,7 +323,7 @@ footer::after {
         visibility: hidden;
     }
 }
-@media (max-width:500px){
+@media (min-width:401px){
     #tit{
         /* border: 2px solid red; */
         width: 320px;
