@@ -324,5 +324,68 @@ footer::after {
     }
 }
 @media (max-width:500px){
-
+    #tit{
+        /* border: 2px solid red; */
+        width: 320px;
+        margin-left: 25px;
+    }
+    #d1{
+        /* border: 2px solid red; */
+        margin-left: 25px;
+        width: 325px;
+    }
+    #f1{
+        /* border: 2px solid red; */
+        margin-left: 1px;
+        width: 400px;
+    }
+    #f2{
+        /* border: 2px solid red; */
+        width: 290px;
+        position: absolute;
+        top: 550px;
+        right: 30px;
+    }
+    aside{
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 450px;
+    }
+     footer{
+         /* border: 2px solid red; */
+         position: absolute;
+         top: 950px;
+         right: 33px;
+         width: 310px;
+         height: 80px;
+         padding-bottom: 10px;
+    }
+    #f{
+        /* border: 2px solid red; */
+        margin: 10px;
+    }
+    .sc{
+        /* border: 2px solid red; */
+        width: 200px;
+    }
+    .link,.copy{
+        /* border: 2px solid red; */
+        visibility: hidden;
+    }
+    .db{
+        /* border: 2px solid red; */
+        margin-top: -35px;
+        position:absolute;
+        right: 10px;
+    }
+    .na{
+        /* border: 2px solid red; */
+        font-size: 12px;
+    }
+    aside{
+        position: absolute;
+        left: -500px;
+        /* border: 2px solid red; */
+        visibility: hidden;
+    }
 }
