@@ -343,8 +343,8 @@ footer::after {
         /* border: 2px solid red; */
         width: 290px;
         position: absolute;
-        top: 550px;
-        right: 30px;
+        top: 510px;
+        right: 120px;
     }
     aside{
         /* border: 2px solid red; */
@@ -354,10 +354,10 @@ footer::after {
      footer{
          /* border: 2px solid red; */
          position: absolute;
-         top: 950px;
-         right: 33px;
+         top: 900px;
+         right: 128px;
          width: 310px;
-         height: 80px;
+         height: 60px;
          padding-bottom: 10px;
     }
     #f{
