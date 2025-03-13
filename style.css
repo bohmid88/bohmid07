@@ -5,16 +5,16 @@ body{
 #d1{
     display: flex;
     /* border: 2px solid red; */
-    width: 1400px;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 30px;
+    width: 90%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 #f1 , #f2{
     display: inline-block;
-    margin-left: 50px;
-    width: 410px;
-    height: 350px;
+    margin-left: 3%;
+    width: 32%;
+    height: 100%;
     padding-top: 20px;
     border-radius: 12px;
     border: 3px solid aqua;
@@ -257,7 +257,7 @@ footer::after {
     border-right: 3px solid white;
     animation: borderMove2 2s linear infinite;
 }
-@media (max-width:400px) {
+@media (max-width:450px) and (min-width:400px) {
     #tit{
         /* border: 2px solid red; */
         width: 320px;
@@ -279,6 +279,7 @@ footer::after {
         position: absolute;
         top: 510px;
         right:45px;
+        height: 20%;
     }
     aside{
         /* border: 2px solid red; */
@@ -288,7 +289,7 @@ footer::after {
      footer{
          /* border: 2px solid red; */
          position: absolute;
-         top: 910px;
+         top: 100%;
          right: 50px;
          width: 310px;
          height: 80px;
