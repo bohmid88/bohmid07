@@ -257,7 +257,7 @@ footer::after {
     border-right: 3px solid white;
     animation: borderMove2 2s linear infinite;
 }
-@media (max-width:450px) {
+@media (max-width:500px) {
     #tit{
         /* border: 2px solid red; */
         width: 320px;
