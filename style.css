@@ -1,6 +1,12 @@
 body{
     background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
 }
 #d1{
     display: flex;
@@ -14,13 +20,13 @@ body{
     display: inline-block;
     margin-left: 3%;
     width: 32%;
-    height: 350px;
-    padding-top: 20px;
+    height: 100%;
+    padding-top: 1%;
     border-radius: 12px;
     border: 3px solid aqua;
 }
 #f2{
-    width: 700px;
+    width: 52%;
 }
 #d1 legend{
     color: white;
@@ -34,21 +40,21 @@ body{
     border-radius: 12px;
     background-color: darkgray;
     color: white;
-    width: 300px;
+    width: 80%;
     height: 40px;
     text-align: center;
-    margin: 10px;
-    margin-top: 10px;
+    margin: 1%;
+    margin-top: 3%;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#d1 img{
-    width: 20px;
-    height: 20px;
+.p{
+    width: 6%;
+    height: 50%;
     /* border: 2px solid red; */
-    margin-right: 8px;
+    margin-right: 2%;
     /* position: relative;
     top: 7px; */
 }
@@ -56,17 +62,17 @@ body{
     background-color: slategray;
 }
 #data{
-    margin-left: 40px;
+    margin-left: 10%;
     /* border: 2px solid red; */
-    position: relative;
-    top: -20px;
+    /* position: relative;
+    top: -20px; */
+    margin-top: -3%;
 }
 #n{
     color: bisque;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     top: -10px;
-    /* border: 2px solid red; */
     text-align: center;
 }
 header {
@@ -81,7 +87,7 @@ header h1{
 }
 .na{
     display: inline-block;
-    width: 250px;
+    width: 30%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     animation: fadeInOut 1s infinite alternate;
@@ -142,13 +148,11 @@ header h1{
     100% { width: 100%; height: 100%; }
 }
 .copy{
-    display: inline-block;
+    height: 3%;
+    width: 3%;
+    margin-left: 5px;
     position: relative;
-    top: 5px;
-    left: 5px;
-}
-.b{
-    margin-left: 50px;
+    top: 8px;
 }
 .db {
     display: inline-block;
@@ -325,4 +329,6 @@ footer::after {
         visibility: hidden;
     }
 }
-
+img{
+    height: 1000px;
+}
