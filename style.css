@@ -281,9 +281,9 @@ footer::after {
         /* border: 2px solid red; */
         width: 290px;
         position: absolute;
-        top: 510px;
-        right:45px;
-        height: 600px;
+        top: 470px;
+        right:35px;
+        height: 200px;
     }
     aside{
         /* border: 2px solid red; */
@@ -329,6 +329,4 @@ footer::after {
         visibility: hidden;
     }
 }
-img{
-    height: 1000px;
-}
+
