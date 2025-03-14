@@ -268,13 +268,11 @@ footer::after {
         margin-left: 25px;
     }
     #d1{
-        height: 100%;
         /* border: 2px solid red; */
         margin-left: 25px;
         width: 325px;
     }
     #f1{
-        height: 100%;
         /* border: 2px solid red; */
         margin-left: 1px;
         width: 400px;
@@ -329,6 +327,9 @@ footer::after {
         left: -500px;
         /* border: 2px solid red; */
         visibility: hidden;
+    }
+    .p{
+        width: 10px;
     }
 }
 
