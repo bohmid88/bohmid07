@@ -281,7 +281,7 @@ footer::after {
         /* border: 2px solid red; */
         width: 290px;
         position: absolute;
-        top: 480px;
+        top: 490px;
         right:35px;
         height: 200px;
     }
@@ -321,6 +321,7 @@ footer::after {
     .na{
         /* border: 2px solid red; */
         font-size: 12px;
+        width: 100%;
     }
     aside{
         position: absolute;
