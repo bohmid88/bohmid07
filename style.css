@@ -1,8 +1,13 @@
 body{
     background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg);
     background-size: cover;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 main{
     height: 100%;
@@ -229,9 +234,9 @@ footer{
     position: relative;
     bottom: 90px;
     text-align: center;
-    width: 800px;
+    width: 60%;
     height: 50px;
-    margin-left: 350px;
+    margin-left: 20%;
 }
 #f{
     position: relative;
@@ -261,77 +266,3 @@ footer::after {
     border-right: 3px solid white;
     animation: borderMove2 2s linear infinite;
 }
-@media (max-width:500px) {
-    #tit{
-        /* border: 2px solid red; */
-        width: 320px;
-        margin-left: 25px;
-    }
-    #d1{
-        /* border: 2px solid red; */
-        margin-left: 25px;
-        width: 325px;
-    }
-    #f1{
-        /* border: 2px solid red; */
-        margin-left: 1px;
-        width: 400px;
-    }
-    #f2{
-        /* border: 2px solid red; */
-        width: 290px;
-        position: absolute;
-        top: 490px;
-        right:35px;
-        height: 200px;
-    }
-    aside{
-        /* border: 2px solid red; */
-        position: absolute;
-        left: 450px;
-    }
-     footer{
-         /* border: 2px solid red; */
-         position: absolute;
-         top: 100%;
-         right: 50px;
-         width: 310px;
-         height: 80px;
-         padding-bottom: 10px;
-         height: 60px;
-    }
-    #f{
-        /* border: 2px solid red; */
-        margin: 10px;
-    }
-    .sc{
-        /* border: 2px solid red; */
-        width: 200px;
-    }
-    .link,.copy{
-        /* border: 2px solid red; */
-        visibility: hidden;
-    }
-    .db{
-        /* border: 2px solid red; */
-        margin-top: -35px;
-        position:absolute;
-        right: 10px;
-    }
-    .na{
-        /* border: 2px solid red; */
-        font-size: 12px;
-        width: 100%;
-    }
-    aside{
-        position: absolute;
-        left: -500px;
-        /* border: 2px solid red; */
-        visibility: hidden;
-    }
-    .p{
-        width: 25px;
-        height: 25px;
-    }
-}
-
