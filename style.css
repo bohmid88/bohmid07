@@ -1,7 +1,7 @@
 body {
     background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     margin-top: 15px;
 }
@@ -408,4 +408,31 @@ footer::after {
         margin-left: 0px;
         background-color:mediumseagreen;
     }
+
+
+
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .main{
+        min-height: 100vh; /* Ensures it fills the viewport */
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .main-content {
+        flex: 1;
+    }
+      
 }
